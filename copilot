@@ -1,0 +1,14 @@
+.devcontainer/devcontainer.json
+In the body of the new .devcontainer/devcontainer.json file, add the following content:
+
+{
+    // Name this configuration
+    "name": "Codespace for Skills!",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot"
+            ]
+        }
+    }
+}
